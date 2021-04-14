@@ -78,7 +78,7 @@ public class OwnerEntity : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            //Turn left
+            //Turn right
             //transform.Rotate(new Vector3(0, 0, -10));
             gameObject.transform.Rotate(0, 0, -30 * Time.fixedDeltaTime);
         }
